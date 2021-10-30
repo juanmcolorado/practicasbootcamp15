@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    display: flex;
+
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+*{
+    padding: 2%;
+    margin: 0%;
+}
+main{
+    margin-block: 9rem;
+    margin-left: 12rem;
+    width: 50%;
+}
+
+
+h1{
+    width: 100%;
+}
+
+p{
+    width: 100%;
+}
+section{
+   margin-right: 1rem;
+   width: 100%;
+   margin-left: 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+form{
+    background-color: white;
+    background-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    height: 24rem;
+}
+.button1{
+    border-radius: 2.5rem;
+    border: 2px solid purple
+    width: 30rem;
+}
+
+.button{
+    border-radius: 2.5rem;
+    border: 2px solid purple
+    width: 30rem;
+}
+
+.input{
+    border-radius: .75rem;
+    border:lightgrey solid .5px;
+    border-bottom: 1rem;
+}
